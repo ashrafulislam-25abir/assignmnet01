@@ -19,10 +19,7 @@
     cursor: pointer; 
    
 }
-.btn:hover {
-    background-color: #28A75A; 
-    transform: scale(1.05);    
-}
+
 header{
     background-color: #FFFFFF;
     padding-top: 16px;
