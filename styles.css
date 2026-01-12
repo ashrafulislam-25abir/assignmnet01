@@ -14,12 +14,15 @@
     border: none;
     padding: 12.5px 16px;
     border-radius: 4px;
-    margin-right: 120px;
+    /* margin-right: 120px; */
     color: #FFFFFF;
     cursor: pointer; 
    
 }
-
+.btn:hover {
+    background-color: #28A75A; 
+    transform: scale(1.05);    
+}
 header{
     background-color: #FFFFFF;
     padding-top: 16px;
@@ -27,7 +30,7 @@ header{
 nav{
     width: 100%;
     max-width: 1600px;
-    /* border: 1px solid red;  */
+    border: 1px solid red;  
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -49,5 +52,56 @@ nav .menu a{
     color: #000000;
     text-decoration: none;
 
+}
+#banner{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 70px 134px;
+    background-image: url(./assets/hero-bg.png);
+    margin: 0 auto;
+    max-width: 1600px;
+}
+.badge{
+    display: inline-block;
+    background: #ffffff;
+    color: #30B868;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+#banner .banner-content{
+    text-align: center;
+    
+}
+#banner .banner-content h1{
+    color: #FFFFFF;
+    font-size: 72px;
+}
+#banner .banner-content h1 span{
+    color: #30B868;
+    font-size: 72px;
+    margin-bottom: 16px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+.banner-buttons{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    
+    
+}
+.banner-buttons .secondary{
+    background: transparent;
+    border: 1px solid #ffffff;
 }
 
