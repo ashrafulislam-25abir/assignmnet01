@@ -258,3 +258,55 @@ nav .menu a{
     color: #627382;
     margin-top: 12px;
 }
+footer {
+   display: flex;
+   justify-content: center;
+   
+    
+}
+.footer-content {
+   max-width: 1600px;
+    width: 100%;
+    background: var(--Style, rgba(0, 25, 49, 1));
+    padding: 120px ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    text-align: left;
+}
+
+.social p {
+    font-size: 20px;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+.icons a {
+    width: 32px;
+    height: 32px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content hr {
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 60px 0 24px;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    color: #fafafa;
+}
