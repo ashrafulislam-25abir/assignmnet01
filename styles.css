@@ -212,3 +212,49 @@ nav .menu a{
     line-height: 20px;
     margin-bottom: 14px;
 }
+#early-access{
+   
+    padding: 120px 32px;
+}
+.early-access-box {
+    max-width: 1360px;
+    margin: 0 auto;
+    background: #F7F6F2;
+    padding: 80px 32px;
+    border-radius: 16px;
+    text-align: center;
+}
+.early-access-box h2 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+.subtitle {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.early-btn {
+    background: #30B868;
+    color: #ffffff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    
+}
+.early-btn:hover {
+    background-color: #28A75A; 
+    transform: scale(1.05);    
+}
+.note {
+    font-size: 16px;
+    color: #627382;
+    margin-top: 12px;
+}
